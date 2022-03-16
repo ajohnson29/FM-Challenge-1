@@ -1,0 +1,145 @@
+/* Colors 
+
+Dark Cyan: 	#19a2ae;
+Dark Blue: 	#2d3248;
+Gray Blue: 	#6a6f81;
+Dark Gray: #969696;
+Foot Blue: 	#3e52a3;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* This defines what 1rem is (10px)*/
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  box-sizing: border-box;
+  background-color: #19a2ae;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.svgTop {
+  position: absolute;
+  z-index: -1;
+  top: -50rem;
+  left: -10rem;
+}
+
+.svgBottom {
+  position: absolute;
+  z-index: -1;
+  bottom: -50rem;
+  right: -10rem;
+}
+
+/* Main Content */
+
+.container {
+  border-radius: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2rem 6rem rgba(45, 50, 72, 0.3);
+}
+.background {
+  border-radius: 20px 20px 0 0;
+}
+
+.profileImg {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+.profileImg-photo {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  flex: 0 0 100%;
+  padding: 2rem 0;
+
+  display: flex;
+}
+
+.name {
+  color: #2d3248;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.name span {
+  color: #969696;
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.country {
+  color: #969696;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #f5f4f4;
+  padding: 30px 0;
+}
+
+.item1,
+.item2,
+.item3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3248;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item1 span,
+.item2 span,
+.item3 span {
+  font-size: 0.8rem;
+  color: #969696;
+  font-weight: 400;
+  word-spacing: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+/* FOOTER */
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.attribution a {
+  color: #3e52a3;
+}
